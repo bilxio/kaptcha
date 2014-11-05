@@ -8,7 +8,7 @@ block into your `pom.xml`, enjoy it!
 ```
 <repositories>
     <repository>
-        <id>YOUR-PROJECT-NAME-mvn-repo</id>
+        <id>kaptcha-mvn-repo</id>
         <url>https://raw.github.com/bilxio/kaptcha/mvn-repo/</url>
         <snapshots>
             <enabled>true</enabled>
