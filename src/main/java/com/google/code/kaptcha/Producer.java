@@ -9,7 +9,7 @@ public interface Producer
 {
 	/**
 	 * Create an image which will have written a distorted text.
-	 *
+	 * 
 	 * @param text
 	 *            the distorted characters
 	 * @return image with the text
