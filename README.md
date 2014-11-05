@@ -1,4 +1,5 @@
-I moved this project from GoogleCode because Google Code is not graceful for ME.
+I moved this project from GoogleCode because Google Code is not graceful for
+some one in this region such like me.
 
 And, I've changed this project to a Maven structure. If you're using maven as your
 primary project management tool, from now on, your can just easily put this
