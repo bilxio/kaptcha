@@ -9,7 +9,17 @@
     <groupId>com.github.bilxio</groupId>
     <version>2.3.2</version>
 
+    <name>kaptcha</name>
     <description>kaptcha is a modern version of the simplecaptcha project</description>
+    <url>https://github.com/bilxio/kaptcha</url>
+
+    <licenses>
+      <license>
+        <name>Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
 
     <distributionManagement>
         <repository>
@@ -23,6 +33,14 @@
         <!-- github server corresponds to entry in ~/.m2/settings.xml -->
         <github.global.server>github</github.global.server>
     </properties>
+
+    <repositories>
+      <repository>
+        <id>egit</id>
+        <name>Eclipse egit</name>
+        <url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+      </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -51,7 +69,7 @@
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>0.9</version>
+                <version>0.10</version>
                 <configuration>
                     <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
                     <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
