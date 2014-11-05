@@ -1,6 +1,6 @@
 I moved this project from GoogleCode because Google Code is not graceful for ME.
 
-And, I changed this project to a Maven structure. If you're using maven as your
+And, I've changed this project to a Maven structure. If you're using maven as your
 primary project management tool, from now on, your can just easily put this
 block into your `pom.xml`, enjoy it!
 
