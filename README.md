@@ -18,6 +18,9 @@ block into your `pom.xml`, enjoy it!
 </repositories>
 ```
 
+BTW: about how to use maven in Github, many thanks to this article:
+http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github
+
 
 Here's the original content of README:
 
