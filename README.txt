@@ -1,7 +1,11 @@
-kaptcha - A kaptcha generation engine.
+I moved this project from GoogleCode because Google Code is not graceful for ME.
 
-Please see the website for more information about this project.
+Here's the original content of README:
 
-http://code.google.com/p/kaptcha/
+> kaptcha - A kaptcha generation engine.
 
-thanks!
+> Please see the website for more information about this project.
+
+> http://code.google.com/p/kaptcha/
+
+> thanks!
